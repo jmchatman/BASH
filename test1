@@ -1,0 +1,6 @@
+#/bin/bash
+
+#echo "this is a test script /n"
+#echo "showing local directory /n"
+
+ls ./
