@@ -28,13 +28,13 @@
     - name: Change Jenkins port tcp 8000
       lineinfile:
         path: /etc/sysconfig/jenkins
-        regexp: 'HTTP_PORT=\"8080\"'
-        line: 'HTTP_PORT=\"8000\"'
+        regexp: 'JENKINS_PORT="8080"'
+        line: 'JENKINS_PORT="8000"'
 
     - name: Start & Enable Jenkins
       systemd:
         name: jenkins
-        state: started
+        state: restarted
         enabled: true
 
     - name: Sleep for 30 seconds and continue with play
