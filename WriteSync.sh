@@ -1,7 +1,7 @@
 #!/bin/bash
 
-rsync -avt ~/Documents/RETURN\ NOVELS/ /Volumes/XBOOT/Files/RETURN\ NOVELS/
+rsync -avt ~/Documents/<DIR>/ /Volumes/XBOOT/Files/<DIR>
 
-rsync -avt ~/Documents/RETURN\ PUBLISHING/ /Volumes/XBOOT/Files/RETURN\ PUBLISHING/
+rsync -avt ~/Documents/<DIR> /Volumes/XBOOT/Files/<DIR>
 
 exit
