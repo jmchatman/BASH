@@ -1,4 +1,4 @@
-#Jenkins Buildt Test v.0.5##
+#Jenkins Build Test v.0.8##
 
 ##The purpose of this lab is to automatically configure a working configuration manager and puppet server (using Ansible as of 0.8).
 
